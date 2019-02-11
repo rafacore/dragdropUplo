@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: 'red';
+    
+}
+.dragdrop{
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+   min-height:0;
+   
+    overflow: hidden;
+    transition: max-height 0.15s ease-out;
+    
+    border-width: 2px;
+    border-radius: 5px;
+    /*border-color: ${props => getColor(props)};
+    border-style: ${props => props.isDragReject || props.isDragActive ? 'solid' : 'dashed'};*/
+    background-color: #dcdcdc;
+}
+
+
+.preimg{
+    
+    width: 200px;
+    max-height: 200px;
+    
+    background-color: #dcdcdc;
+}
+.predi{
+    margin: 0 auto;
+    width: 200px;
+    
+    transition: max-height 0.25s ease-in;
+    border-width: 2px;
+    border-radius: 5px;   
+    background-color: #dcdcdc;
+}
